@@ -97,5 +97,5 @@ The project is structured into the following directories:
 ├── utils/              # Utility and helper functions
 ├── firebase.js         # Firebase initialization and config
 ├── App.js              # Main entry point of the app
-└── .env                # store your Firebase configuration
+└── .env                # store your environment variable
 ```
