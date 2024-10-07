@@ -74,7 +74,7 @@ Make sure you have the following tools installed:
 5. Start the app:
 
    ```bash
-   expo start
+   npx expo start
    ```
 
 ## Usage
