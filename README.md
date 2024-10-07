@@ -19,13 +19,14 @@ Chat Flow is a mobile chat application built using React Native with Expo and Fi
 
 ## Screenshots
 
-<img src="https://github.com/user-attachments/assets/ab337256-26fa-4676-8893-44d5ca284fd9" width="250">
-<img src="https://github.com/user-attachments/assets/0dd9187e-318c-4b85-9e07-724050ef5372" width="250">
-<img src="https://github.com/user-attachments/assets/f1a99e96-e56c-468c-b95f-44526259791c" width="250">
-<img src="https://github.com/user-attachments/assets/d1370ad6-0eee-4819-91fa-d5559010cd1e" width="250">
-<img src="https://github.com/user-attachments/assets/58f3c191-f28c-4c52-b8f7-aa6b2071f712" width="250">
-<img src="https://github.com/user-attachments/assets/a9a22d65-4794-42c7-b5df-5670ab1231b3" width="250">
-<img src="https://github.com/user-attachments/assets/740cd5c3-dc24-40a4-8c0f-0fee4472f3c8" width="250">
+<img src="https://github.com/user-attachments/assets/d4723fb0-a889-408d-87ac-50a352b1fb19" width="250">
+<img src="https://github.com/user-attachments/assets/4dcf0d69-0b95-48aa-a3be-2afcbe56f989" width="250">
+<img src="https://github.com/user-attachments/assets/91749d0c-2ee4-4f95-b1b9-c30ce808e580" width="250">
+<img src="https://github.com/user-attachments/assets/e52d2224-7f89-4089-9680-2ab3101527a3" width="250">
+<img src="https://github.com/user-attachments/assets/bb8bfb04-e625-4c51-a4c4-ace7fc741153" width="250">
+<img src="https://github.com/user-attachments/assets/0542816d-7646-410f-8729-d62865374552" width="250">
+<img src="https://github.com/user-attachments/assets/45a4df8a-7b56-4299-8e50-511f642ade70" width="250">
+<img src="https://github.com/user-attachments/assets/ea3a37d4-985b-4fa2-8ff0-b88496e84361" width="250">
 
 ## Getting Started
 
