@@ -42,25 +42,25 @@ Make sure you have the following tools installed:
 
 ### Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/yogi0808/ChatFlow.git
    ```
 
-2. Navigate to the project directory:
+2. **Navigate to the project directory:**
 
    ```bash
    cd ChatFlow
    ```
 
-3. Install the dependencies:
+3. **Install the dependencies:**
 
    ```bash
    npm install
    ```
 
-4. Create a `.env` file to store your Firebase configuration. Add the following keys:
+4. **Create a `.env` file to store your Firebase configuration. Add the following keys:**
 
    ```env
    EXPO_PUBLIC_FIREBASE_API_KEY=your_api_key
@@ -71,7 +71,7 @@ Make sure you have the following tools installed:
    EXPO_PUBLIC_FIREBASE_APP_ID=your_app_id
    ```
 
-5. Start the app:
+5. **Start the app:**
 
    ```bash
    npx expo start
