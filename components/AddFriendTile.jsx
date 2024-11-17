@@ -14,6 +14,7 @@ const AddFriendTile = ({ user }) => {
   const { loading, addFriend } = useAddFriend()
   const [chat, setChat] = useState(null)
   const [isFriend, setIsFriend] = useState(false)
+  const [isDisabled, setIsDisabled] = useState(false)
 
   useEffect(() => {
     const fetchData = async () => {
@@ -82,7 +83,12 @@ const AddFriendTile = ({ user }) => {
         <CustomButton
           text="Add to Friend"
           loading={loading}
-          onPress={() => addFriend(user)}
+          onPress={() => {
+            addFriend(user)
+            setIsFriend(true)
+            setIsDisabled(true)
+          }}
+          disabled={isDisabled}
           containerStyles={{ marginLeft: "auto" }}
           sm
         />
