@@ -14,7 +14,6 @@ const AddFriendTile = ({ user }) => {
   const { loading, addFriend } = useAddFriend()
   const [chat, setChat] = useState(null)
   const [isFriend, setIsFriend] = useState(false)
-  const [isDisabled, setIsDisabled] = useState(false)
 
   useEffect(() => {
     const fetchData = async () => {
@@ -40,7 +39,7 @@ const AddFriendTile = ({ user }) => {
     if (user.id !== auth.currentUser.uid) {
       fetchData()
     }
-  }, [])
+  }, [isFriend])
 
   return (
     <View style={styles.main}>
@@ -77,7 +76,6 @@ const AddFriendTile = ({ user }) => {
           text="Message"
           onPress={() => router.push(`chat/${chat.chatId}-${user.id}`)}
           containerStyles={{ marginLeft: "auto" }}
-          disabled={isDisabled}
           sm
         />
       ) : (
@@ -87,9 +85,7 @@ const AddFriendTile = ({ user }) => {
           onPress={() => {
             addFriend(user)
             setIsFriend(true)
-            setIsDisabled(true)
           }}
-          disabled={isDisabled}
           containerStyles={{ marginLeft: "auto" }}
           sm
         />
