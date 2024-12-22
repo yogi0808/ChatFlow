@@ -77,6 +77,7 @@ const AddFriendTile = ({ user }) => {
           text="Message"
           onPress={() => router.push(`chat/${chat.chatId}-${user.id}`)}
           containerStyles={{ marginLeft: "auto" }}
+          disabled={isDisabled}
           sm
         />
       ) : (
