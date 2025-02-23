@@ -82,10 +82,7 @@ const AddFriendTile = ({ user }) => {
         <CustomButton
           text="Add to Friend"
           loading={loading}
-          onPress={() => {
-            addFriend(user)
-            setIsFriend(true)
-          }}
+          onPress={() => addFriend(user)}
           containerStyles={{ marginLeft: "auto" }}
           sm
         />
